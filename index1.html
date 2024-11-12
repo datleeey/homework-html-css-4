@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-title">JOURNEY</h1>
+    <div class="social-icons">
+        <img src="ico1.png" alt="Icon 1" class="social-icon">
+        <img src="ico2.png" alt="Icon 2" class="social-icon">
+        <img src="ico3.png" alt="Icon 3" class="social-icon">
+    </div>  
+    <div class="auth-options">
+      <span class="divider">|</span>
+      <span>Welcome,</span>
+      <a href="#" class="login">Log In</a> or <a href="#" class="signup">Sign Up</a>
+    </div>
+  </header>
+  <main>
+    <div class="auth-form">
+      <h2>Sign Up <span class="login-link"><a href="#">Log In</a></span></h2>
+      <div class="social-buttons">
+        <div class="row">
+          <button class="facebook">
+            <span><i class="fab fa-facebook-f"></i></span>
+            Facebook
+          </button>
+        </div>
+        <div class="row">
+          <button class="google">
+            <span><i class="fab fa-google-plus-g"></i></span>
+            Google+
+          </button>
+        </div>
+      </div>
+      <div class="or-container">
+        <div class="or-line"></div>
+        <p class="or-text">or</p>
+        <div class="or-line"></div>
+      </div>
+      <form action="#">
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Choose Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <label class="checkbox-container">
+          <input type="checkbox" required>
+          <span class="checkmark"></span>
+          Agree to our <a href="#">Terms & Conditions</a>
+        </label>
+        <button type="submit" class="create-account-btn">Create Account</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
