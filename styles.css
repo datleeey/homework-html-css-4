@@ -9,7 +9,7 @@
 body, html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
-    background: url("back.png") no-repeat center center fixed;
+    background: url("images/back.png") no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -143,15 +143,15 @@ body, html {
 }
   
 .social-icon:hover {
-    content: url('ico11.png'); /* Замена изображения на ico11.png при наведении */
+    content: url('images/ico11.png'); /* Замена изображения на ico11.png при наведении */
 }
   
 .social-icon:nth-child(2):hover {
-    content: url('ico22.png'); /* Замена изображения на ico22.png для второй иконки */
+    content: url('images/ico22.png'); /* Замена изображения на ico22.png для второй иконки */
 }
   
 .social-icon:nth-child(3):hover {
-    content: url('ico33.png'); /* Замена изображения на ico33.png для третьей иконки */
+    content: url('images/ico33.png'); /* Замена изображения на ico33.png для третьей иконки */
 }
 
 .row button.facebook,
